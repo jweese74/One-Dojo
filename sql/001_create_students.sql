@@ -6,7 +6,10 @@ CREATE TABLE IF NOT EXISTS students (
     date_of_birth DATE NOT NULL,
     gender ENUM('male', 'female', 'other') DEFAULT 'other',
     email VARCHAR(255) UNIQUE,
-    phone VARCHAR(50),
+    home_phone VARCHAR(50),
+    cell_phone VARCHAR(50),
+    mailing_address TEXT,
+    medical_conditions TEXT,
     status ENUM('active', 'inactive') DEFAULT 'active',
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
