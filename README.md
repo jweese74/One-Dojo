@@ -15,6 +15,7 @@ One Dojo is a secure, modular, self-hosted application designed for managing mar
   - Class assignments and instructor linkage
   - Active/inactive status toggling
   - Note tracking (per student and per level)
+  - Emergency contact management with shared contacts
 
 - 🗓️ **Attendance Tracking**
   - Class roll-call support
