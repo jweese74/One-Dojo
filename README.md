@@ -57,6 +57,7 @@ one-dojo/
 ├── tests/            # PHPUnit test cases
 ├── docker/           # Container setup (optional)
 ├── scripts/          # Utility scripts (migrations etc.)
+├── sql/              # SQL schema scripts
 ├── .env.example      # Environment variable template
 ├── composer.json     # PHP dependencies
 └── README.md
@@ -77,6 +78,8 @@ composer install
 # Set up your environment
 cp .env.example .env
 # Edit .env and set database/app values
+# Load database schema
+for f in sql/*.sql; do mysql -u root -p one_dojo < "$f"; don
 
 # Run locally (if using Laravel, for example)
 php artisan serve
