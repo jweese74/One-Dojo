@@ -6,6 +6,8 @@ CREATE TABLE IF NOT EXISTS students (
     date_of_birth DATE NOT NULL,
     gender ENUM('male', 'female', 'other') DEFAULT 'other',
     email VARCHAR(255) UNIQUE,
+    -- Store password hashes so students can log in
+    password_hash VARCHAR(255) NOT NULL,
     home_phone VARCHAR(50),
     cell_phone VARCHAR(50),
     mailing_address TEXT,
