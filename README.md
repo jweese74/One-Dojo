@@ -17,6 +17,7 @@ One Dojo is a secure, modular, self-hosted application designed for managing mar
   - Note tracking (per student and per level)
   - Emergency contact management with shared contacts
   - Secure student logins via hashed passwords
+  - Role assignments per student (Student, Instructor, Club Admin, etc.)
 
 - 🗓️ **Attendance Tracking**
   - Class roll-call support
@@ -30,6 +31,7 @@ One Dojo is a secure, modular, self-hosted application designed for managing mar
   - **Administrator** – Full access
   - **Instructor** – Student records only
   - **Treasurer** – Financial records only
+  - Custom roles stored in the `roles` table for flexible permissions
 
 - 🔌 **Modular Architecture**
   - Exposed secure APIs for external integration
