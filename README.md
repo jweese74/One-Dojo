@@ -69,6 +69,13 @@ one-dojo/
 
 ---
 
+## 🎨 Global Styles
+
+Basic styling lives in `public/css/style.css` and showcases a left sidebar with
+red highlights. See `public/index.html` for a usage example.
+
+---
+
 ## 🚀 Getting Started
 
 ```bash
